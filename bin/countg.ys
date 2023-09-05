@@ -1,0 +1,23 @@
+#This program counts the number of positive (> 0)
+#numbers in a list. 
+        .pos 0
+#
+#Initialize %rax to 0
+#Get a number out of the list
+#Determine if the number is positive (you'll need an opq
+#instruction to set the condition codes)
+#Add one to %rax if it is positive (you'll need a conditional move)
+#Repeat for each of the five numbers 
+#
+#At the end, %rax should have the count of the number
+#of positive numbers (3 for this data)
+#Store the value of %rax in mem[count]
+        halt
+#Here is the list of numbers
+        .align 8
+nums:   .quad 0x23
+        .quad 0x13
+        .quad 0xfffffffffffffff8
+        .quad 0x0
+        .quad 0x11
+count:  .quad 0

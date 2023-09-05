@@ -1,0 +1,111 @@
+    .pos 0
+    nop
+    irmovq $1, %rcx
+    nop
+    nop
+    nop
+    addq %rax, %rdx
+    nop
+    nop
+    nop
+    addq %rcx, %rdx
+    nop
+    nop
+    nop  
+    addq %rcx, %rbx
+    nop
+    nop
+    nop
+    addq %rdx, %rbx
+    nop
+    nop
+    nop
+    addq %rdx, %rsp
+    nop
+    nop
+    nop
+    addq %rbx, %rsp
+    nop
+    nop
+    nop
+    addq %rbx, %rbp
+    nop
+    nop
+    nop
+    addq %rsp, %rbp
+    nop
+    nop
+    nop
+    addq %rsp, %rsi
+    nop
+    nop
+    nop
+    addq %rbp, %rsi
+    nop
+    nop
+    nop
+    addq %rbp, %rdi
+    nop
+    nop
+    nop
+    addq %rsi, %rdi
+    nop
+    nop
+    nop
+    addq %rsi, %r8
+    nop
+    nop
+    nop
+    addq %rdi, %r8
+    nop
+    nop
+    nop
+    addq %rdi, %r9
+    nop
+    nop
+    nop
+    addq %r8, %r9
+    nop
+    nop
+    nop
+    addq %r8, %r10
+    nop
+    nop
+    nop
+    addq %r9, %r10
+    nop
+    nop
+    nop
+    addq %r9, %r11
+    nop
+    nop
+    nop
+    addq %r10, %r11
+    nop
+    nop
+    nop
+    addq %r10, %r12
+    nop
+    nop
+    nop
+    addq %r11, %r12
+    nop
+    nop
+    nop
+    addq %r11, %r13
+    nop
+    nop
+    nop
+    addq %r12, %r13
+    nop
+    nop
+    nop
+    addq %r12, %r14
+    nop
+    nop
+    nop
+    addq %r13, %r14
+    nop
+    nop
+    nop
+    halt
